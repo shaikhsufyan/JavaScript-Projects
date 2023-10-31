@@ -1,0 +1,289 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* loading Effect */
+#headLoader{
+    width: 90%;
+    padding: 33px;
+    background-color: #eeeded;
+    margin: auto;
+    border-radius: 6px;
+    margin-top: 13px;
+}
+.mainLode{
+    width: 80%;
+    height: 260px;
+    background-color: #eeeded;
+    margin: auto;
+    border-radius: 6px;
+    margin-top: 13px;
+    margin-top: 28px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards{
+    margin-top: 55px;
+}
+.cards .cardLoad{
+    width: 340px;
+    height: 300px;
+    background-color: #eeeded;
+    border-radius: 6px;
+    margin-inline: 20px;
+
+}
+.cardLoad p{
+    width: 330px;
+    height: 25px;
+    background-color: #eeeded;
+    border-radius: 4px;
+    margin-top: 321px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: rgb(248, 164, 103);
+    height: 70px;
+    box-shadow: 1px 3px 3px 3px rgb(216, 216, 216);
+}
+.logo h1{
+    font-size: 35px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    margin-inline: 22px;
+    font-size: 20px;
+}
+.icons{
+    display: flex;
+    gap: 28px;
+}
+.icons i{
+    font-size: 25px;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 140px;
+}
+.mainText {
+    margin-top: 42px;
+}
+.mainText h1{
+    font-size: 65px;
+}
+.mainText p{
+    margin-top: 22px;
+}
+.mainText button{
+    margin-top: 22px;
+    width: 140px;
+    height: 40px;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.head{
+    text-align: center;
+    padding: 86px;
+}
+.foodCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.foodCard .card{
+    width: 300px;
+    margin-inline: 22px;
+    margin-top: 22px;
+}
+.card img{
+    width: 100%;
+    height: 250px;
+}
+.card p{
+    padding: 9px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gallery img{
+    margin-inline: 6px;
+    margin-top: 12px;
+}
+.gallery img:hover{
+    box-shadow: 2px 5px 6px 5px gray;
+}
+.gallery img{
+    width: 360px;
+    height: 240px;
+}
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.blogCard{
+    display: flex;
+    gap: 22px;
+    width: 500px;
+    padding: 22px;
+    background-color: #575656;
+    margin-inline: 22px;
+    color: white;
+    margin-top: 22px;
+}
+.blogCard img{
+    width: 300px;
+}
+.blogText p{
+    margin-top: 12px;
+}
+.blogText a{
+    padding: 6px 20px;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 11px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: rgb(85, 40, 8);
+    color: white;
+
+}
+.text p{
+    margin-top: 12px;
+}
+
+.foodDetail{
+    display: flex;
+    gap: 42px;
+
+    margin-top: 33px;
+    width: 750px;
+}
+.foodDetail img{
+    width: 400px;
+    height: 300px;
+}
+.foodDetail h2{
+    margin-top: 22px;
+}
+.foodDetail p{
+    margin-top: 22px;
+}
+.foodDetail button{
+    margin-top: 22px;
+    width: 110px;
+    height: 33px;
+    background-color: rgb(255, 123, 0);
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+.foodDetail a{
+    padding: 5px;
+    background-color: rgb(25, 0, 255);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+#bar{
+    display: none;
+    font-size: 25px;
+}
+@media screen and (max-width:1100px){
+    .main{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:750px){
+    ul{
+        display: none;
+    }
+    .icons{
+        display: none;
+    }
+    #bar{
+        display: block;
+    }
+}
+
+@media screen and (max-width:600px){
+    .mainText h1{
+        font-size: 33px;
+    }
+    .main img{
+        width: 90%;
+    }
+    .mainText p{
+        font-size: 16px;
+    }
+    
+    .blogCard{
+        display: block;
+        text-align: center;
+        width: 90%;
+    }
+    .blogCard img{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width:700px){
+    .foodDetail{
+        display: block;
+        text-align: center;
+        width: 90%;
+    }
+    .foodDetail img{
+        width: 90%;
+    }
+}
+@media screen and (max-width:400px){
+    .gallery img{
+        width: 90%;
+    }
+}
