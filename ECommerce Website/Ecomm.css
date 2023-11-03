@@ -1,0 +1,221 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: pink;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 80px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    margin-inline: 22px;
+}
+.logo{
+    font-size: 22px;
+}
+.searchBar{
+    display: flex;
+}
+.searchBar input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    background-color: transparent;
+}
+.searchBar i{
+    margin-left: -22px;
+}
+.cart i{
+    font-size: 25px;
+}
+.cart p{
+    margin-left: 11px;
+    font-size: 20px;
+
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 133px;
+}
+.mainText{
+    margin-top: 44px;
+}
+.mainText p{
+    margin-top: 22px;
+}
+.mainText button{
+    margin-top: 22px;
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.mainText h1{
+    font-size: 65px;
+}
+.head{
+    text-align: center;
+    padding: 88px;
+}
+
+#shop{
+    background-color: rgb(255, 217, 0);
+}
+.shops{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.shops .card{
+    width: 300px;
+    margin-inline: 22px;
+    margin-top: 22px;
+}
+.card img{
+    width: 100%;
+    height: 300px;
+}
+.card button{
+    position: relative;
+    top: -38px;
+    width: 120px;
+    height: 35px;
+    background-color: rgb(249, 21, 59);
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+ 
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 134, 48);
+
+}
+.gallery img{
+    width: 300px;
+    margin-inline: 22px;
+    margin-top: 22px;
+}
+.connect{
+    width: 400px;
+    padding: 22px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px 3px gray;
+    text-align: center;
+    margin: auto;
+
+}
+.connect input{
+    width: 90%;
+    height: 12px;
+    padding: 12px;
+    border: 1px solid black;
+    font-size: 18px;
+    outline: none;
+    margin-top: 22px;
+}
+
+.connect button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(238, 5, 44);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 22px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: black;
+    color: white;
+}
+.text p{
+    margin-top: 12px;
+}
+
+
+
+.cartItems{
+    width: 200px;
+    height: 300px;
+    overflow-y: auto;
+    background-color: pink;
+    text-align: center;
+    position: absolute;
+    margin-top: 25%;
+    right: 4%;
+}
+.cartList{
+    margin-top: 22px;
+}
+.cartItems .cartList img{
+     width: 65px;
+}
+.cartList i{
+    position: relative;
+    top: -22px;
+    font-size: 28px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1100px){
+    .main{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:950px){
+    ul{
+        display: none;
+
+    }
+    .searchBar{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .connect{
+        width: 80%;
+    }
+    .main img{
+        width: 95%;
+    }
+    .mainText h1{
+        font-size: 35px;
+    }
+    .cartItems{
+        position: absolute;
+        margin-top: 88%;
+    }
+}
