@@ -1,0 +1,326 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+} 
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(1, 1, 34);
+    color: white;
+}
+.logo{
+    font-size: 22px;
+}
+ul{
+    display: flex;
+
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    margin-inline: 22px;
+    color: white;
+    font-size: 22px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 68px;
+    background-color: #ebebeb;
+    padding: 20px;
+     
+}
+.main img{
+    width: 700px;
+    /* height: 100%; */
+}
+.mainText {
+    margin-top:111px;
+    margin-left: 33px;
+}
+.mainText p{
+    margin-top: 22px;
+}
+.mainText button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(253, 9, 50);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 22px;
+    border-radius: 2px;
+}
+.main h1{
+    font-size: 64px;
+}
+.head{
+    text-align: center;
+    padding: 86px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.crd{
+    width: 330px;
+    margin-inline: 22px;
+    text-align: center;
+    background-color: rgb(247, 208, 214);
+    cursor: pointer;
+    margin-top: 22px;
+
+}
+.crdText{
+    padding: 22px;
+}
+.crd p{
+    margin-top: 11px;
+}
+.crd button{
+    margin-top: 12px;
+    background-color: rgb(2, 2, 95);
+    color: white;
+    font-size: 18px;
+    border-radius: 22px;
+    border: none;
+    width: 110px;
+    height: 33px;
+    cursor: pointer;
+}
+.crd img{
+    width: 100%;
+    height: 260px;
+}
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.planCard{
+    width: 270px;
+    box-shadow: 1px 3px 3px 3px rgb(201, 200, 200);
+    text-align: center;
+    margin-inline: 22px;
+    padding: 22px;
+    margin-top: 22px;
+}
+.planCard h2{
+    background-color: rgb(1, 1, 59);
+    color: white;
+    padding: 13px;
+}
+.planCard p{
+    margin-top: 22px;
+}
+.planCard button{
+    margin-top: 22px;
+    width: 120px;
+    border: none;
+    height: 35px;
+    background-color: rgb(248, 112, 135);
+    border-radius: 20px;
+    font-size: 17px;
+}
+.members{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.members .slider{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    transition: all 1s ease;
+}
+
+.slider img{
+    width: 280px;
+    height: 250px;
+    border-radius: 6px;
+    margin-inline: 22px;
+}
+.connect{
+    width: 400px;
+    padding: 22px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+.connect input{
+    width: 90%;
+    height: 22px;
+    margin-top: 22px;
+    padding: 8px;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+}
+.connect button{
+    width: 120px;
+    height: 36px;
+    background-color: rgb(250, 10, 54);
+    margin: auto;
+    border: none;
+    position: relative;
+    top: 13px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: rgb(9, 18, 18);
+    color: white;
+}
+.text p{
+    margin-top: 12px;
+}
+
+/* card Detail */
+
+.cardDetail {
+     text-align: center;
+}
+.cardDetail img{
+    width: 70%;
+    height: 65%;
+    margin-top: 22px;
+}
+.cardDetail p{
+    margin-top: 22px;
+}
+.cardDetail h1{
+    margin-top: 34px;
+}
+.cardDetail h3{
+    margin-top: 33px;
+}
+.cardDetail .dumiText{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.cardDetail button{
+    margin-top: 24px;
+    width: 130px;
+    height: 38px;
+    background-color: rgb(243, 13, 51);
+    border: none;
+    border-radius: 21px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.cardDetail a{
+    padding: 8px 22px;
+    background-color: rgb(3, 3, 53);
+    border: none;
+    border-radius: 21px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#bar{
+    display: none;
+    font-size: 25px;
+}
+@media screen and (max-width:1100px){
+    .main{
+        display: block;
+        text-align: center;
+    }
+    .mainText{
+        margin-left: 0px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    ul{
+        display: none;
+    }
+    #bar{
+        display: block;
+    }
+}
+
+@media screen and (max-width:1020px){
+    .members{
+        width: 90%;
+    }
+    .slider img{
+        width: 200px;
+        margin-inline: 9px;
+    }
+}
+
+@media screen and (max-width:800px){
+     
+    .slider img{
+        width: 160px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:630px){
+    .connect{
+        width: 80%;
+    }
+
+    .slider img{
+        width: 100px;
+        height: 150px;
+        margin-inline: 4px;
+    }
+    .mainText h1{
+        font-size: 35px;
+    }
+    .mainText p{
+        font-size: 15px;
+    }
+    .main img{
+        width: 99%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .members{
+        width: 100%;
+    }
+    .slider img{
+        width: 90px;
+        height: 130px;
+        margin-inline: 2px;
+    }
+}

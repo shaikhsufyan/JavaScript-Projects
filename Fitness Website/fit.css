@@ -1,0 +1,291 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+} 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(1, 1, 50);
+    color: white;
+}
+.logo{
+    font-size: 22px;
+}
+ul{
+    display: flex;
+}
+ ul li{
+    list-style: none;
+ }
+ li a{
+    text-decoration: none;
+    margin-inline: 22px;
+    font-size: 21px;
+    color: white;
+ }
+ .main{
+    display: flex;
+    justify-content: center;
+    margin-top: 111px;
+ }
+ .main img{
+    width: 660px;
+ }
+ .mainText{
+    margin-top: 55px;
+ }
+ .mainText h1{
+    font-size: 65px;
+ }
+ .mainText p{
+    font-size: 18px;
+    margin-top: 22px;
+ }
+ .mainText button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(255, 6, 48);
+    color: white;
+    border: none;
+    margin-top: 22px;
+    font-size: 20px;
+ }
+ .challenges{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+ }
+ .challenges .card{
+    width: 330px;
+    margin-inline: 20px;
+    background-color: rgb(251, 207, 214);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 22px;
+
+
+ }
+ .card img{
+    width: 100%;
+    height: 290px;
+ }
+ .crdText p{
+    margin-top: 13px;
+ }
+ .crdText{
+    padding: 11px;
+ }
+ .crdText button{
+    margin-top: 13px;
+    width: 90px;
+    height: 34px;
+    background-color: rgb(250, 9, 50);
+    color: white;
+    font-size: 18px;
+    border-radius: 21px;
+    border: none;
+ }
+ .head{
+    padding: 88px;
+    text-align: center;
+ }
+ .plans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .planCard{
+    width: 290px;
+    padding: 22px;
+    text-align: center;
+    box-shadow: 1px 3px 3px 3px rgb(216, 216, 216);
+    border-radius: 3px;
+    margin-inline: 20px;
+    margin-top: 22px;
+ }
+ .planCard p{
+    margin-top: 22px;
+ }
+ .planCard button{
+    margin-top: 22px;
+    width: 110px;
+    height: 34px;
+    background-color: rgb(250, 16, 55);
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    border: none;
+ }
+ .planCard h2{
+    padding: 18px;
+    background-color: rgb(3, 3, 71);
+    color: white;
+ }
+ .member{
+    width: 900px;
+    height: 330px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+ }
+ .slider{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    transition: all 1s ease;
+ }
+ .slider img{
+    width: 250px;
+    height: 220px;
+    border-radius: 5px;
+    margin-inline: 20px;
+    text-align: center;
+ }
+ .connect{
+    width: 400px;
+    padding: 22px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(1, 1, 40);
+    margin: auto;
+ }
+ .connect input{
+    width: 90%;
+    height: 22px;
+    padding: 11px;
+    border: none;
+    font-size: 18px;
+    margin-top: 22px;
+ }
+ .connect button{
+    width: 120px;
+    height: 35px;
+    background-color: rgb(255, 7, 48);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 22px;
+ }
+ .footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: rgb(9, 9, 9);
+    color: white;
+ }
+ .text p{
+    margin-top: 13px;
+ }
+
+ /* card detail */
+ .detailCard{
+    text-align: center;
+
+ }
+ .detailCard img{
+    width: 70%;
+    height: 66%;
+    margin-top: 22px;
+ }
+ .detailCard p{
+    margin-top: 22px;
+ }
+ .detailCard button{
+    width: 90px;
+    height: 33px;
+    border-radius: 22px;
+    border: none;
+    font-size: 18px;
+    background-color: rgb(254, 8, 49);
+    margin-top: 22px;
+    color: white;
+
+ }
+ .detailCard a{
+    padding: 5px 22px;
+    border-radius: 22px;
+    border: none;
+    font-size: 18px;
+    background-color: rgb(3, 3, 41);
+    text-decoration: none;
+    color: white;
+ }
+#bar{
+    display: none;
+    font-size: 25px;
+}
+
+ @media screen and (max-width:1100px){
+    .main{
+        text-align: center;
+        display: block;
+    }
+ }
+ 
+
+ @media screen and (max-width:800px){
+    ul{
+        display: none;
+    }
+    #bar{
+        display: block;
+    }
+ }
+ 
+ @media screen and (max-width:950px){
+    .member{
+        width: 90%;
+    }
+    .slider img{
+        width: 170px;
+    }
+    .slider{
+        margin-inline: 11px;
+    }
+ }
+ 
+ @media screen and (max-width:750px){
+     
+    .slider img{
+        width: 130px;
+        height: 160px;
+        margin-inline: 6px;
+    }
+ }
+ 
+ @media screen and (max-width:510px){
+    .member{
+        width: 99%;
+    }
+    .slider img{
+        width: 90px;
+        height: 120px;
+        margin-inline: 2px;
+    }
+    .connect{
+        width: 80%;
+    }
+    .main h1{
+        font-size: 33px;
+    }
+    .main p{
+        font-size: 14px;
+    }
+    .main img{
+        width: 99%;
+    }
+ }
