@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+     <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>PortFolio</h1>
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <i id="bar" class="fa-solid fa-bars"></i>
+
+        </nav>
+
+        <div class="main">
+             
+            <div class="mainText">
+                <h3>Hello  I am</h3>
+                <h1>Sufyan Shaikh</h1>
+                <p>Hey Everyone, I am FullStack Developer and I have skills <br>Like HTML CSS and javaScript Typecript ReactJS Redux <br> and MEARN Material UI</p>
+                <button onclick="downlodeBtn()">Downlode CV</button>
+            </div>
+            <img src="main.png" alt="">
+        </div>
+
+        <div id="about">
+            <div class="head">
+                <h1>About Us</h1>
+            </div>
+            <div class="about">
+                <div class="aboutText">
+                     <h2>Sufyan Shaikh</h2>
+                     <p>FullStack Developer</p>
+                     <p id="yt">YouTuber : CODE With Sufyan Shaikh</p>
+                     <p>Hey I am FullStack Developer and <br>
+                      Apart From this i am Content Creator <br>
+                       making video about coding  </p>
+                </div>
+                <img src="main.png" alt="">
+            </div>
+        </div>
+
+        <div id="service">
+            <div class="head">
+                <h1>Service</h1>
+            </div>
+            <div class="btns">
+                <button class="category" id="all">All</button>
+                <button class="category" id="ui">UI/UX Design</button>
+                <button class="category" id="web">Web Development</button>
+                <button class="category" id="android">Android Development</button>
+            </div>
+            <div class="service">
+               
+                <div class="serviceCard" id="uiDesign">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, explicabo molestias!</p>
+                    <button>contact</button>
+                </div>
+                <div class="serviceCard" id="webDesign">
+                    <i class="fa-solid fa-laptop"></i>
+                    <h2>Web Application</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, explicabo molestias!</p>
+                    <button>contact</button>
+                </div>
+                <div class="serviceCard" id="androidDesign">
+                    <i class="fa-solid fa-mobile"></i>
+                    <h2>Mobile Application</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, explicabo molestias!</p>
+                    <button>contact</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="work">
+            <div class="head">
+                <h1>My Work</h1>
+            </div>
+            <div class="work">
+                <div class="workCard">
+                    <img src="news.png" alt="">
+                    <h2>News Website</h2>
+                    <p>Responsive News Website Using API and HTML CSS JavaScript </p>
+                    <a href="https://youtu.be/pQQZcA6GjJE?si=tlS1-OxU2tvu1u3A" target="_blank">Check</a>
+                </div>
+                <div class="workCard">
+                    <img src="ecomm.png" alt="">
+                    <h2>Ecommerce Website</h2>
+                    <p>Responsive Ecommerce Website Using HTML CSS and JavaScript </p>
+                    <a href="https://youtu.be/wKPepi1_mvs?si=dzJjH5T9gnnn83Og" target="_blank">Check</a>
+                </div>
+                <div class="workCard">
+                    <img src="food.png" alt="">
+                    <h2>Food Website</h2>
+                    <p>Responsive Food Website Using HTML CSS and JavaScript </p>
+                    <a href="https://youtu.be/3sRhdfm0cN8?si=pqB7xg8H4g_yDuLI" target="_blank">Check</a>
+                </div>
+                <div class="workCard">
+                    <img src="food2.png" alt="">
+                    <h2>Food Website</h2>
+                    <p>Responsive Food Website Using HTML CSS and JavaScript </p>
+                    <a href="https://youtu.be/R3dnjk4yRbQ?si=VyG3v_921aeiCAaM" target="_blank">Check</a>
+                </div>
+            </div>
+
+            <div id="contact">
+                <div class="head">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="contact">
+                    <input type="text" placeholder="Enter Your Name" id="name">
+                    <input type="Email" placeholder="Enter Your Email" id="email">
+                    <textarea  rows="6" cols="35" placeholder="Your Message..."  id="msg"></textarea>
+                    <button id="submit">Submit</button>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="text">
+                    <p>Privacy Policy</p>
+                    <p>Term & Condition</p>
+                    <p>Disclaimer</p>
+                </div>
+                 
+            </div>
+        </div>
+     </div>
+     
+    <script src="index.js"></script>
+</body>
+</html>
