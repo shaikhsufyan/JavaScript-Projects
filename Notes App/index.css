@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;   
+    padding: 32px;
+    background-color: orange;
+}
+#add{
+    width: 200px;
+    height: 180px;
+    border: 6px;
+    background-color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#add i{
+    font-size: 46px;
+    padding: 6px;
+}
+#addNote{
+    position: fixed;
+    top: -18%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-40%, 50%);
+    display: none;
+    width: 300px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: auto; 
+    background-color: #fff;
+}
+input{
+    width: 90%;
+    height: 11px;
+    padding: 11px;
+    font-size: 20px;
+}
+.inputs{
+    margin-top: 22px;
+}
+.inputs p{
+    font-size: 20px;
+    
+}
+textarea{
+    width: 90%;
+    padding: 11px;
+    font-size: 18px;
+}
+#addText{
+    width: 100%;
+    height: 38px;
+    border: none;
+    background-color: rgb(255, 123, 0);
+    color: white;
+    margin-top: 22px;
+    font-size: 24px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#icon{
+    border: none;
+    background-color: transparent;
+    font-size: 28px;
+    cursor: pointer;
+}
+#notes{
+    display: flex;
+    gap: 43px;
+    align-items: center;
+   
+}
+.myText{
+    overflow-wrap: break-word;
+    width: 200px;
+    height: 160px;
+    border-radius: 4px;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #fff;
+}
+.myText p{
+    margin-top: 11px;
+    overflow: auto;
+    font-size: 15px;
+     
+}
+.myText button{
+    width: 80px;
+    height: 27px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    border-radius: 2px;
+    margin-top: 11px;
+    cursor: pointer;
+    position: fixed;
+    top: 163px;
+}
+ 
