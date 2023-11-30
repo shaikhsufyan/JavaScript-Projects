@@ -1,0 +1,333 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(1, 1, 17);
+    color: white;
+     
+}
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(1, 1, 17);
+    box-shadow: 0px 2px 6px 2px rgb(29, 27, 27);
+    padding: 20px;
+
+
+}
+nav ul{
+    margin-right: 42px;
+    margin-top: 6px;
+}
+.logo{
+    margin-left: 13px;
+    font-size: 22px;
+}
+nav ul a{
+    margin-inline: 20px;
+    color: white;
+    text-decoration: none;
+}
+ul a:hover{
+    color: rgb(2, 253, 2);
+    border-bottom: 2px solid rgb(2, 253, 2);
+}
+nav button{
+    width: 70px;
+    height: 28px;
+    background-color: rgb(4, 181, 4);
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+nav button:hover{
+    border: 2px solid rgb(2, 253, 2);
+    background-color: transparent;
+    color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 174px;
+}
+.main h1{
+    color: rgb(2, 253, 2) ;
+    font-size: 77px;
+
+}
+.main h2{
+    font-size: 33px;
+    margin-top: 22px;
+}
+.main p{
+    color: silver;
+    margin-top: 22px;
+
+}
+.main button{
+    width: 140px;
+    height: 40px;
+    margin-top: 22px;
+    background-color:rgb(2, 253, 2);
+    color: white;
+    border: none;
+    font-size: 22px;
+}
+.main img{
+    
+    width: 600px;
+}
+
+.head{
+    text-align: center;
+    padding: 88px;
+    margin-top: 25px;
+}
+.head span{
+    color: red;
+}
+.train{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ .train .card{
+    width: 330px;
+    height: 370px;
+    background-color: rgb(99, 99, 99);
+    margin-inline: 12px;
+    margin-top: 22px;
+}
+.trainText{
+    padding: 22px;
+}
+.card a{
+    width: 80px;
+    padding: 6px;
+    background-color: red;
+    color: white;
+    position: relative;
+    top: 18px;
+    text-decoration: none;
+}
+.card img{
+    width: 100%;
+}
+
+.slides{
+    width: 1200px;
+    height: 400px;
+   
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.slideCard{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 1s ease;
+
+}
+
+.slideCard img{
+    width: 260px;
+    height: 300px;
+    margin-inline: 20px;
+    margin-top: 26px;
+    border-radius: 4px;
+}
+ 
+.btn{
+    text-align: center;
+     padding: 55px;
+}
+ .btn button{
+    width: 90px;
+    height: 28px;
+    background-color: rgb(6, 225, 6);
+    color: white;
+    font-size: 19px;
+    border: none;
+    margin-inline: 22px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: rgb(1, 103, 1);
+}
+
+.program{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.program .proCard{
+    width: 330px;
+    height: 400px;
+    margin-inline: 11px;
+    text-align: center;
+    margin-top: 44px;
+}
+.proCard:hover{
+    height: 426px;
+    transition: 0.7s ease;
+}
+.program img{
+    width: 90%;
+    height: 100%;
+}
+
+.connect{
+    text-align: center;
+}
+.connect input{
+    width: 400px;
+    padding: 11px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-top: 11px;
+}
+.connect button{
+    width: 180px;
+    height: 42px;
+    background-color: rgb(6, 220, 6);
+    color: white;
+    font-size: 27px;
+    border: none;
+    margin-top: 22px;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(245, 243, 243);
+    color: black;
+    padding: 55px;
+    margin-top: 55px;
+}
+
+/* join */
+.join{
+    display: none;
+}
+.showForm h2{
+    color: black;
+}
+.showForm{
+    display: block;
+    position: fixed;
+    top: -3%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-40%, 50%);
+    background-color: #fff;
+    text-align: center;
+    width: 300px;
+    padding: 22px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px 3px rgb(23, 23, 54);
+}
+.showForm input{
+    width: 90%;
+    padding: 13px;
+    height: 14px;
+    outline: none;
+    margin-top: 21px;
+    font-size: 18px;
+    border: 1px solid  black;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(204, 204, 204);
+    
+}
+.showForm button{
+    width: 120px;
+    height: 35px;
+    background-color: rgb(0, 63, 252);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#bar{
+    display: none;
+}
+@media screen and (max-width:1100px){
+    .main{
+        display: block;
+        text-align: center;
+    }
+    .slides{
+        width: 90%;
+    }
+    .slideCard img{
+        width: 24%;
+    }
+}
+
+@media screen and (max-width:950px){
+   
+}
+
+@media screen and (max-width:850px){
+    ul{
+        display: none;
+    }
+    #bar{
+        display: block;
+        font-size: 25px;
+        color: white;
+    }
+    .slideCard img{
+        height: 200px;
+    }
+
+    
+}
+
+@media screen and (max-width:600px){
+    .main{
+        padding: 11px;
+    }
+    .main h1{
+        font-size: 34px;
+    }
+    .main h2{
+        font-size: 26px;
+    }
+    .main p{
+        font-size: 15;
+    }
+    .main img{
+        width: 90%;
+    }
+    .slideCard img{
+        height: 160px;
+        margin-inline: 4px;
+    }
+    .connect input{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .slideCard img{
+        width: 29%;
+        height: 110px;
+    }
+    .text{
+        margin-top: 32px;
+    }
+}
