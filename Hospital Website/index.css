@@ -1,0 +1,257 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(223, 222, 222);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(3, 136, 189);
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    height: 70px;
+
+}
+.logo{
+    font-size: 22px;
+}
+ul{
+    display: flex;
+}
+ul li {
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    margin-inline: 22px;
+    font-size: 20px;
+    color: white;
+}
+ul li a:hover{
+    color: black;
+  
+}
+nav i{
+    font-size: 27px;
+    cursor: pointer;
+    color: black;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 88px;
+}
+.main img{
+    width: 320px;
+}
+.mainText{
+    margin-top: 52px;
+}
+.main h1{
+    font-size: 65px;
+    margin-top: 22px;
+}
+.main p{
+    font-size: 18px;
+    margin-top: 22px;
+}
+.main button{
+    font-size:22px;
+    margin-top: 22px;
+    width: 140px;
+    height: 40px;
+    background-color: rgb(2, 2, 80);
+    border: none;
+    color: white;
+}
+.main button:hover{
+    background-color: rgb(4, 80, 245);
+    cursor: pointer;
+}
+
+.special{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.special .card{
+    width: 300px;
+    height: 120px;
+    padding: 22px;
+    text-align: center;
+    background-color: rgb(7, 152, 236);
+    text-align: center;
+    border-radius: 5px;
+    margin-inline: 22px;
+    color: white;
+    margin-top: 22px;
+}
+.card p{
+    font-size: 22px;
+    margin-top: 22px;
+}
+.head{
+    text-align: center;
+    padding: 88px;
+}
+.doctor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.doctor .docCard{
+    width: 300px;
+    margin-inline: 22px;
+    margin-top: 22px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.docCard p{
+    padding: 18px;
+    font-size: 22px;
+}
+.docCard img{
+    width: 100%;
+    height: 300px;
+}
+ 
+
+
+.review{
+    width: 900px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+.reviewCard{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease;
+}
+.reviewCard img{
+    width: 260px;
+    height: 300px;
+    margin-inline: 15px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    padding: 66px;
+    margin-top: 66px;
+}
+.text{
+    margin-top: 22px;
+}
+.text p{
+    margin-top: 12px;
+}
+
+  
+ .toggle{
+    background-color: rgb(49, 49, 49);
+    color: white;
+ }
+  
+
+ .detailCard{
+    width: 400px;
+    padding: 21px;
+    border-radius: 6px;
+    background-color: rgb(0, 134, 134);
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 40%);
+    text-align: center;
+    color: white;
+ }
+ .detailCard h2{
+    margin-top: 22px;
+ }
+ .detailCard p{
+    margin-top: 22px;
+ }
+ .detailCard #cross{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    background-color: black;
+    padding: 9px;
+    border-radius: 3px;
+    font-size: 22px;
+    cursor: pointer;
+ }
+
+ @media screen and (max-width:950px){
+    .review{
+        width: 90%;
+
+    }
+    .review img{
+        width: 200px;
+        margin-inline: 8px;
+    }
+    .main{
+        display: block;
+        text-align: center;
+    }
+    ul{
+        display: none;
+    }
+ }
+ 
+ @media screen and (max-width:720px){
+    .review{
+        width: 88%;
+
+    }
+    .review img{
+        width: 180px;
+        height: 200px;
+        margin-inline: 4px;
+    }
+    
+ }
+ 
+ @media screen and (max-width:620px){
+    .review{
+        width: 90%;
+
+    }
+    .review img{
+        width: 100px;
+        height: 120px;
+        margin-inline: 4px;
+    }
+    .main h1{
+        font-size: 34px;
+    }
+    .main img{
+        width: 90%;
+    }
+    .main p{
+        font-size: 15px;
+    }
+ }
+  
+ @media screen and (max-width:500px){
+    .detailCard{
+        width: 80%;
+    }
+ }
