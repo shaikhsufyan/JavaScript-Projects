@@ -1,0 +1,223 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    font-size: 22px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 70px;
+
+}
+nav i{
+    font-size: 28px;
+    color: rgb(255, 166, 0);
+}
+ul{
+    display: flex;
+
+}
+li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    margin-inline: 22px;
+    font-size: 22px;
+    color: black;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 149px;
+}
+.mainText{
+    margin-top: 44px;
+}
+.mainText h1{
+    font-size: 66px;
+}
+.mainText p{
+    margin-top: 22px;
+}
+.mainText button{
+    margin-top: 22px;
+    width: 140px;
+    height: 40px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    font-size: 22px;
+    border: none;
+}
+.head{
+    padding: 88px;
+    text-align: center;
+}
+.food{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.foodCard{
+    margin-inline: 22px;
+    width: 300px;
+    margin-top: 33px;
+    background-color: #fff;
+    padding: 11px;
+    text-align: center;
+    border-radius: 11px;
+    cursor: pointer;
+}
+.foodCard:hover{
+    background-color: rgb(255, 196, 0);
+    color: white;
+}
+.foodCard #eat{
+   font-size: 20px;
+
+}
+.foodCard p{
+    margin-top: 6px;
+}
+.foodCard img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.offer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.offerCard{
+    width: 350px;
+    text-align: center;
+    margin-inline: 22px;
+    background-color: #fff;
+    border-radius: 9px;
+    box-shadow:  0px 3px 3px 3px rgb(236, 236, 236);
+
+}
+.offerCard p{
+    padding: 22px;
+}
+.offerCard img{
+    width: 100%;
+    height: 250px;
+    border-radius: 6px;
+}
+.reviews{
+    display: flex;
+    justify-content:center ;
+    text-align: center;
+    width: 600px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+   
+}
+.reviewCard{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+
+}
+.reviewCard .crd{
+    width: 500px;
+    padding: 12px;
+    text-align: center;
+    border-radius:11px;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px 3px rgb(228, 228, 228);
+    
+}
+.reviewCard img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: black;
+    color: white;
+}
+.footer .text p{
+    margin-top: 22px;
+}
+.detailCard{
+    width: 400px;
+    padding: 22px;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 11px;
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 40%);
+    top: 5%;
+}
+.detailCard img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.detailCard i{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+    padding: 11px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    font-size: 22px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width:960px){
+    .main{
+        display: block;
+        text-align: center;
+    }
+    ul{
+        display: none;
+    }
+}
+
+@media screen and (max-width:620px){
+    .reviews {
+        width: 80%;
+    }
+    .main h1{
+        font-size: 33px;
+    }
+    .main img{
+        width: 90%;
+    }
+    .detailCard{
+        width: 80%;
+    }
+}
+ 
