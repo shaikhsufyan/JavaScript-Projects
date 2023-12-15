@@ -1,0 +1,283 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;   
+    background-color: #f5f4f4;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+}
+nav i{
+    font-size: 26px;
+}
+ul{
+    display: flex;
+}
+ul li {
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-inline: 22px;
+    color: black;
+}
+li a:hover{
+    color:  rgb(247, 3, 44);
+    border-bottom: 2px solid rgb(247, 3, 44);
+}
+.logo{
+    font-size: 22px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    background-color: rgb(138, 108, 90);
+    padding: 11px;
+
+}
+.main img{
+    width: 700px;
+}
+.mainText{
+    margin-top: 55px;
+}
+.main h1{
+    font-size: 66px;
+    color: white;
+}
+.main p{
+    margin-top: 22px;
+}
+.main button{
+    width: 140px;
+    height: 43px;
+    margin-top: 22px;
+    border-radius: 24px;
+    background-color: rgb(245, 5, 45);
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.head{
+    text-align: center;
+    padding: 88px;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 63px;
+    cursor: pointer;
+}
+ 
+.shopCard {
+    width: 300px;
+    background-color: rgb(87, 86, 86);
+    padding: 11px;
+    margin-inline: 22px;
+    margin-top: 22px;
+}
+.shop img{
+    width: 100%;
+    height: 300px;
+     
+}
+.shopCard p{
+    color: white;
+    text-align: center;
+    padding: 11px;
+    font-size: 18px;
+}
+.shopCard p:hover {
+    margin-top: -48px;
+    
+    background-color: black;
+    width: 278px;
+    height: 50px;
+    transition: all 1s ease;
+    position: absolute;
+}
+.blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.blogCard{
+    width: 300px;
+    height: 400px;
+    margin-inline: 22px;
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 22px;
+}
+.blogCard a{
+    padding: 4px 22px ;
+    text-decoration: none;
+    background-color: rgb(248, 4, 44);
+    color: white;
+    position: relative;
+    top: 11px;
+    border-radius: 22px;
+}
+.blogCard img{
+    width: 100%;
+    height: 80%;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 66px;
+    margin-top: 66px;
+}
+.text p{
+    margin-top: 22px;
+}
+
+.trend{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    background-color: black;
+
+}
+.trendCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    transition: all 1s ease;
+     
+}
+.trend img{
+    width: 240px;
+    height: 280px;
+    margin-inline: 20px;
+}
+ 
+.cardDetail{
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    top: -8%;
+    transform: translate(-50%, 40%);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    height: 400px;
+    padding: 32px;
+ 
+     
+}
+.cardDetail img{
+    width: 200px;
+    height: 300px;
+}
+.cardDetail i{
+    position: absolute;
+    right: 0px;
+    top: 0%;
+    background-color: rgb(119, 86, 62);
+    color: white;
+    font-size: 20px;
+    padding: 9px;
+    cursor: pointer;
+}
+.cardDetail p{
+    margin-top: 22px;
+}
+.cardDetail input{
+    width: 100%;
+    padding: 6px;
+    font-size: 17px;
+}
+.cardDetail button{
+    width: 100%;
+    background-color: rgb(78, 148, 78);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 22px;
+    padding: 10px;
+}
+.textHead{
+    font-size: 22px;
+}
+
+@media screen and (max-width:1100px){
+    .main{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:950px){
+    .trend{
+        width: 90%;
+    }
+    .trend img{
+        width: 30%;
+        margin-inline: 7px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    ul{
+        display: none;
+    }
+    .main img{
+        width: 90%;
+    }
+    .cardDetail{
+        
+       /* margin-top: -22%; */
+        display: block;
+        width: 60%;
+        text-align: center;
+       
+       overflow-y: scroll;
+
+    }
+      
+}
+
+@media screen and (max-width:600px){
+    .main h1{
+        font-size: 34px;
+    }
+    .main img{
+        width: 90%;
+    }
+}
+@media screen and (max-width:500px){
+    .trend img{
+        height: 190px;
+        margin-inline: 3px;
+    }
+}
