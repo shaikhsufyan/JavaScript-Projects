@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(62, 173, 173);
+    font-family: 'Roboto', sans-serif;
+    
+}
+ .container{
+    text-align: center;
+    margin-top: 44px;
+    font-size: 22px;
+ }
+#message{
+    margin-top: 44px;
+    width: 400px;
+    background-color: black;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 11px;
+    margin-top: 55px;
+    font-size: 53px;
+    border-radius: 11px;
+}
+#showTime{
+    font-size:115px;
+    color: white;
+}
