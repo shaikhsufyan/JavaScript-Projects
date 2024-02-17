@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
+ }
+ body{
+   background-color: rgb(230, 230, 230);
+ }
+ .container{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    margin-top: 44px;
+ }
+ .container button{
+    width: 90px;
+    height: 37px;
+    background-color: rgb(250, 20, 59);
+    color: white;
+    font-size: 24px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 22px;
+    cursor: pointer;
+ }
+ textarea{
+    height: 252px;
+   background-color: rgb(230, 230, 230);
+   border-radius: 11px;
+   margin-top: 22px;
+   border: 2px solid black;
+   font-size: 19px;
+   padding: 8px;
+
+ }
+ .textArea p{
+    font-size: 20px;
+    margin-top: 11px;
+ }

@@ -1,0 +1,3 @@
+"JavaScript is a scripting language that enables ",
+            "It also enables users to load content into a document", "such as dropdown menus, animated graphics",
+            "a scripting language used to create "
