@@ -46,7 +46,7 @@ startBtn.addEventListener("click", function(){
     else if(startBtn.innerText == "Done"){
         textInput.disabled=true;
         startBtn.innerText="Start"
-        textInput.style.backgroundColor="rgb(230, 230, 230)"
+        // textInput.style.backgroundColor="rgb(230, 230, 230)"
 
         endFun()
 
