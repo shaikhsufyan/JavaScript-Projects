@@ -1,6 +1,13 @@
 let trendFood = document.querySelectorAll(".trendFood");
 let foodCard = document.querySelectorAll(".foodCard");
 
+ let arrow = document.getElementById("arrow");
+ arrow.addEventListener("click", function(){
+    window.scrollTo({top:0, behavior:"smooth"})
+ })
+
+
+
 let count = 0;
 console.log(trendFood);
 
