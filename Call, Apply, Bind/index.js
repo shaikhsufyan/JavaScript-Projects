@@ -24,4 +24,5 @@ let data3 = {
 data1.details.call(data2," CALL :: Call use for not repeating function ");
 data1.details.apply(data3,[" APPLY :: Using Apply we can pass value through array :"]);
 let bindMethod = data1.details.bind(data2, " BIND : Bind bind the function and ready to execute but when we double call then it Run ");
-bindMethod()
+bindMethod();
+ 
