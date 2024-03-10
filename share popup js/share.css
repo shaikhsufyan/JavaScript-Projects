@@ -1,0 +1,18 @@
+.btn{
+    text-align: center;
+    margin-top: 222px;
+}
+.btn button{
+    width: 140px;
+    height: 45px;
+    border-radius: 6px;
+    background-color: rgb(3, 132, 238);
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    
+}
+.btn p{
+    font-size: 22px;
+}
