@@ -181,6 +181,14 @@ li a{
 .text p{
     margin-top: 11px;
 }
+ .footer #arrow{
+    background-color: #fff;
+    color: black;
+    font-size: 25px;
+    padding: 6px;
+    border-radius: 50%;
+    margin-top: 22px;
+ }
 .cardDetail{
     width: 500px;
     padding: 32px;
