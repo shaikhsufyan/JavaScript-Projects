@@ -19,6 +19,10 @@ nav{
 nav i{
     font-size: 26px;
 }
+nav i:hover{
+    color: rgb(245, 5, 45);
+    cursor: pointer;
+}
 ul{
     display: flex;
 }
@@ -255,14 +259,10 @@ li a:hover{
         width: 90%;
     }
     .cardDetail{
-        
-       /* margin-top: -22%; */
         display: block;
         width: 60%;
         text-align: center;
-       
-       overflow-y: scroll;
-
+        overflow-y: scroll;
     }
       
 }
