@@ -259,16 +259,20 @@ function myFun(age, country){
 // let rs = arr.flat(2);
 // console.log(Array.isArray(arrs));
 // console.log(rs);
+
+
 // POLYFILL
 // YOUTUBE VIDEO
 
 
 
-let nums = [1,1,2,2,3,4];
 
-let num1 = [null];
+
+// let nums = [1,1,2,2,3,4];
+
+// let num1 = [null];
 // console.log(num1.length);
-let num2 = [null];
+// let num2 = [null];
 
  
 // for(let i=0; i<nums.length; i++){
@@ -301,20 +305,47 @@ let num2 = [null];
 
  
  
-for(let i=0; i<nums.length; i++){
+// for(let i=0; i<nums.length; i++){
 
-         if(num1[i] === nums[i]){
-            console.log(nums[i]);
-            num1.push(nums[i])
-         } 
-         if(num1[i] != nums[i]){
-            console.log(nums[i]);
-            num2.push(nums[i])
+//          if(num1[i] === nums[i]){
+//             console.log(nums[i]);
+//             num1.push(nums[i])
+//          } 
+//          if(num1[i] != nums[i]){
+//             console.log(nums[i]);
+//             num2.push(nums[i])
 
-         } 
+//          } 
              
-}
+// }
 
  
-  console.log(num1);
-  console.log(num2);
+//   console.log(num1);
+//   console.log(num2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let arr=[1,[2,3],[[4,5]],6]
+console.log(arr.flat(2));
