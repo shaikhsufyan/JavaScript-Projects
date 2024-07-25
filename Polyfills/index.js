@@ -1,43 +1,27 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//  let arr = [1,2,3,4,5,6];
-//  let newArr = arr.map((curVal)=>{
-//     return curVal*2
-//  })
  
 
-// // MAP METHOD POLYFILL()
-//  Array.prototype.skMap = function(callback){
-//     if(!callback){
-//         throw Error("TypeError : Undefined is not a function")
-//     }
 
-//     let newAr = [];
-//     let ar = this;
-//     for(let i=0; i<ar.length; i++){
-//         let result = callback(ar[i], i, ar);
-//         newAr.push(result)
-//     }
-//     return newAr
-//  }
+
+ let arr = [1,2,3,4,5,6];
+ let newArr = arr.map((curVal)=>{
+    return curVal*2
+ })
+ 
+
+// MAP METHOD POLYFILL()
+ Array.prototype.skMap = function(callback){
+    if(!callback){
+        throw Error("TypeError : Undefined is not a function")
+    }
+
+    let newAr = [];
+    let ar = this;
+    for(let i=0; i<ar.length; i++){
+        let result = callback(ar[i], i, ar);
+        newAr.push(result)
+    }
+    return newAr
+ }
 
 
 
@@ -193,14 +177,14 @@
 
 // CALL METHOD
 
-let obj = {
-    name:"Sufyan",
-    prof:"SE"
-}
+// let obj = {
+//     name:"Sufyan",
+//     prof:"SE"
+// }
 
-function myFun(age, country){
-    console.log(this.name,age, country);
-}
+// function myFun(age, country){
+//     console.log(this.name,age, country);
+// }
  
 //   myFun.call(obj,"india");
 
@@ -336,16 +320,4 @@ function myFun(age, country){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-let arr=[1,[2,3],[[4,5]],6]
-console.log(arr.flat(2));
+ 
