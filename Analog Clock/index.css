@@ -1,0 +1,52 @@
+ 
+.container{
+    background: url("click.png") no-repeat;
+    background-size: 100%;
+    width: 40vh;
+    height: 40vh;
+    margin: auto;
+    border: 1px solid red;
+}
+#hour, #minute, #second{
+    position: absolute;
+    background-color: black;
+    border-radius: 12px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 0.5%;
+    height: 9%;
+    top: 12.3%;
+    left: 49.8%;
+
+}
+#minute{
+    width: 0.5%;
+    height: 11%;
+    top: 10.3%;
+    left: 49.8%;
+
+}
+#second{
+    width: 0.5%;
+    height: 12.5%;
+    top: 8.9%;
+    left: 49.8%;
+}
+
+/* 
+12 = 360
+1h = 30 deg 
+60min = 30 => 1/2
+1 = 1/2 => m/2
+
+30*h+m/2
+
+
+60min => 360
+1min = 6
+6m
+
+60sec = 360
+1sec = 6
+6sec */
