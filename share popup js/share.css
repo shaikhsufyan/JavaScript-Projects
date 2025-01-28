@@ -1,18 +1,20 @@
-.btn{
+ .box{
+    width: 200px;
+    margin: auto;
     text-align: center;
-    margin-top: 222px;
-}
-.btn button{
-    width: 140px;
-    height: 45px;
-    border-radius: 6px;
-    background-color: rgb(3, 132, 238);
+    margin-top: 155px;
+ }
+ button{
+    width: 150px;
+    height: 42px;
+    background-color: rgb(5, 181, 251);
     color: white;
+    border-radius: 6px;
     border: none;
     font-size: 24px;
     cursor: pointer;
-    
-}
-.btn p{
+
+ }
+ p{
     font-size: 22px;
-}
+ }
