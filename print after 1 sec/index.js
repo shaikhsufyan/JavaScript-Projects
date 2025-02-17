@@ -1,11 +1,14 @@
  
-//   for(let i=0; i<=5; i++){
-//     setTimeout(()=>{
-//         console.log(i);
-//     },i*1000)
+//  USING LET 
+  for(let i=0; i<=5; i++){
+    setTimeout(()=>{
+        console.log(i);
+    },i*1000)
  
-// }
+}
 
+
+// USING VAR  
 function myFun(){
     for(var i=0; i<=5; i++){
         function set(i){
