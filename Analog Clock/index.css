@@ -9,7 +9,7 @@
 #hour, #minute, #second{
     position: absolute;
     background-color: black;
-    border-radius: 13px;
+    border-radius: 14px;
     transform-origin: bottom;
 }
 #hour{
